@@ -1,10 +1,6 @@
 package br.com.alura.java.io.teste;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintStream;
 import java.io.PrintWriter;
 
 public class TesteEscritaPrintStreamPrintWriter {
