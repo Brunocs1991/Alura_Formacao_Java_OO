@@ -19,10 +19,18 @@ public class TestaCursoComAluno {
 		javaColecoes.matricula(a1);
 		javaColecoes.matricula(a2);
 		javaColecoes.matricula(a3);
-		
+
 		System.out.println("Todos os alunos matriculados: ");
 		javaColecoes.getAlunos().forEach(a -> {
 			System.out.println(a);
 		});
+		System.out.println("O aluno " + a1 + " esta matriculado");
+		System.out.println(javaColecoes.estaMatriculado(a1));
+
+		Aluno rodrigo = new Aluno("Rodrigo", 34672);
+		System.out.println(javaColecoes.estaMatriculado(rodrigo));
+
+		// obrigatoriamente o seguinte e true.
+		System.out.println(a1.hashCode() == rodrigo.hashCode());
 	}
 }
