@@ -17,7 +17,7 @@ public class Aluno {
 		return nome;
 	}
 
-	public int getNumeroMatriculoa() {
+	public int getNumeroMatricula() {
 		return numeroMatriculoa;
 	}
 
