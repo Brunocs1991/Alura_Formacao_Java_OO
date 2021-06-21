@@ -2,6 +2,7 @@ package br.com.alura;
 
 import java.util.Iterator;
 import java.util.Set;
+import java.util.Vector;
 
 import br.com.alura.classes.Aluno;
 import br.com.alura.classes.Aula;
@@ -39,6 +40,8 @@ public class TestaCursoComAluno {
 			Aluno proximo = iterador.next();
 			System.out.println(proximo);
 		}
+		
+		Vector<Aluno> vetor = new Vector<>();
 
 		System.out.println("O aluno " + a1 + " esta matriculado");
 		System.out.println(javaColecoes.estaMatriculado(a1));
