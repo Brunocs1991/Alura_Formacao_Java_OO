@@ -1,5 +1,8 @@
 package br.com.alura;
 
+import br.com.alura.classes.Aula;
+import br.com.alura.classes.Curso;
+
 public class TestaCurso {
 	public static void main(String[] args) {
 		Curso javaColecoes = new Curso("Dominando as coleções do Java", "instrutor Alura");

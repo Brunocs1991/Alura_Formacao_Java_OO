@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import br.com.alura.classes.Aula;
+import br.com.alura.classes.Curso;
+
 public class TestaCurso2 {
 	public static void main(String[] args) {
 		Curso javaColecoes = new Curso("Dominando as coleções do Java", "instrutor Alura");
